@@ -7,7 +7,7 @@
   <br>
   <br>
   <body>
-    <center>Script for restart pc/server in x seconds.
+    <center>Script for restart pc/server in x minutes.
     </center>
    </body>
   </html>
