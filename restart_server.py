@@ -5,7 +5,7 @@ print("\n\n\t~ Script για επανεκκίνηση του Server ~\n\n@Author
 
 print('*'*60)
 
-#Give time to restart in seconds
+#Give time to restart in minutes
 x = int(input("\n\tΣε πόσα λεπτά να γίνει επανεκκίνηση; : "))
 t = x*60
 
