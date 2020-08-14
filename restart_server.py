@@ -1,11 +1,15 @@
 import countdown_def
 import restart_def
 
-print("\n\n\t~ Script για επανεκκίνηση του Server ~\n\n@Author: Georgios Koliou, georgios.koliou@gmail.com")
+print("\n\n\t~ Script για επανεκκίνηση του Server ~\n\n@Author: Georgios Koliou, georgios.koliou@gmail.com\n")
+
+print('*'*60)
 
 #Give time to restart in seconds
-t = int(input("\n\n\tΣε πόσα δευτερόλεπτα να γίνει επανεκκίνηση; :"))
+x = int(input("\n\tΣε πόσα λεπτά να γίνει επανεκκίνηση; : "))
+t = x*60
 
+print("\n\n\tΟ υπολογιστής θα επανακκινήσει σε:\n")
 countdown_def.countdown(t)
 
 restart_def.restart()
