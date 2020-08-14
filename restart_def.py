@@ -1,4 +1,4 @@
 import os
 
 def restart():
-    os.system("shutdown -r")
+    os.system("shutdown -g -t 0")
