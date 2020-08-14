@@ -8,4 +8,3 @@ def countdown(t):
 		print(time_left + "\r", end="")
 		time.sleep(1)
 		t -= 1
-	print()
